@@ -18,5 +18,4 @@ namespace browserHistoryBrowser
         public int hidden { get; set; }
         public DateTime LVTinClass { get; set; }
     }
-
 }

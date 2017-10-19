@@ -48,7 +48,7 @@ namespace browserHistoryBrowser
             }
             Console.WriteLine("....");
             Console.WriteLine(i + " records in total");
-            string filePath = runningDir + @"\result.csv";
+            string filePath = runningDir + @"\output\result.csv";
             File.WriteAllText(filePath, sb.ToString());
         }
     }

@@ -15,6 +15,7 @@ namespace browserHistoryBrowser
             ch.GetHistory(0);
             IEHistory csqlh = new IEHistory();
             csqlh.GetHistory(0);
+            Console.WriteLine(@"Export finished,file can be found under \BrowserHistoryViewer\bin\x64\Debug\output");
             // write code here that runs when the Windows Service starts up.  
         }
         public void Stop()
